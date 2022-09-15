@@ -1,0 +1,66 @@
+/* Write your CSS here */
+body {
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.randomNumberGenerator-bg-container {
+  height: 100vh;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/random-no-generator-bg.png');
+  display: flex;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+}
+
+.randomNumberGenerator-container {
+  padding: 30px;
+  border-radius: 20px;
+  background-color: #fff;
+  font-family: 'Roboto';
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 420px;
+  width: 390px;
+
+  box-shadow: #eaebed 0px 5px 15px;
+}
+
+.generate-btn {
+  border-width: 0;
+  height: 36px;
+  width: 108px;
+  background-color: #0b69ff;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Roboto';
+}
+
+.randomNumberGenerator-heading {
+  color: #0b69ff;
+  text-align: center;
+}
+
+.randomNumberGenerator-para {
+  text-align: center;
+  color: #333333;
+}
+
+.randomNumber {
+  color: #0b69ff;
+  font-size: 33px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 450px) {
+  .randomNumberGenerator-container {
+    height: 360px;
+    width: 330px;
+  }
+}
